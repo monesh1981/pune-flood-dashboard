@@ -1,0 +1,84 @@
+/* Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+}
+
+/* Header */
+header {
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+header p {
+    margin: 0;
+    font-size: 12px;
+}
+
+/* Alert Box */
+.alert {
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Controls */
+.controls {
+    padding: 10px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.controls input {
+    width: 80px;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.controls button {
+    padding: 5px 10px;
+    background-color: #003366;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+/* Map */
+#map {
+    height: 65vh;
+    width: 100%;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 5px;
+    font-size: 12px;
+    background-color: #003366;
+    color: white;
+}
+
+/* Mobile Optimization */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 16px;
+    }
+
+    .controls {
+        font-size: 14px;
+    }
+
+    #map {
+        height: 60vh;
+    }
+}
