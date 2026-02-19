@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pune Flood Preparedness Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Pune Flood Preparedness Dashboard</h1>
+        <p>Urban Flood Risk & Relief Planning System</p>
+    </header>
+
+    <div class="alert" id="alertBox">
+        Status: <span id="alertStatus">Normal</span>
+    </div>
+
+    <div class="controls">
+        <label>Simulate Rainfall (mm):</label>
+        <input type="number" id="rainInput" placeholder="Enter mm">
+        <button onclick="simulateRain()">Simulate</button>
+    </div>
+
+    <div id="map"></div>
+
+    <footer>
+        Developed using QGIS + Leaflet | Laptop Deployable System
+    </footer>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
